@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+     rel="stylesheet">
+    <style>
+        nav{
+    height: 100px;
+    width: 100%;
+}
+.logo{
+    margin-top: 10px;
+    margin-left: 50px;
+}
+nav ul{
+float: right;
+padding-top: 20px;
+margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+
+}
+nav ul li a{
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    padding:25px ;
+    padding-top: 20px;
+}
+a:hover{
+    color: rgb(93, 190, 93);
+}
+.btn{
+    background-color: rgb(93, 190, 93);}
+.img1{
+    border-radius: 50px;
+}
+.container-h{
+    height: 300px;
+}
+.heading{
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 40px;
+}
+.p{
+    text-align: center;
+}
+.container-a{
+    background-color:  rgb(27, 70, 27);
+    height: 470px;
+}
+.image{
+    margin-top: 80px;
+    margin-left: 50px;
+}
+h2{
+    float: right;
+    margin-right: 200px;
+    margin-top: 140px;
+    color: white;
+    
+}
+p{
+    float: right;
+    margin-top: -210px;
+    margin-right: 120px ;
+    color: white;
+}
+.btn2{
+    float: right;
+    margin-top: -150px;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-right: 385px;
+}
+.container-f{
+    background-color: rgb(235, 217, 217);
+    height: 450px;
+}
+.heading1{
+    font-size: 35px;
+    font-weight: bold;
+  font-weight: bold;
+ float: left;
+ margin-left: 200px;
+ margin-top: 150px;
+    color: rgb(27, 70, 27);
+}
+.p1{
+    margin-left: -550px;
+    float: left;
+    color: black;
+    margin-top: 200px;
+}
+
+.btn3{
+float: left;
+margin-left: -550px;
+margin-top: 250px;
+background-color: green;
+}
+.image3{
+    float: right;
+    margin-right: 50px;
+    margin-top: 30px;
+}
+.container-s{
+    background-color: rgb(27, 70, 27);
+    height: 450px;
+}
+.heading2{
+    margin-top: 80px;
+    margin-right: 290px;
+    color: white;
+    font-size: 40px;
+}
+.image4{
+    border-radius: 10px;
+    margin-left: 40px;
+    margin-top: 50px;
+}
+.p2{
+    margin-top: 200px;
+    float: right;
+    margin-right: -130px;
+}
+.btn4{
+    float: right;
+    margin-top:250px ;
+    margin-right:-130px ;
+}.container--a{
+background-color: white;
+height: 450px;
+}
+.heading3{
+    color: rgb(27, 70, 27);
+    font-weight: bold;
+    font-size: 40px;
+}
+.p3{
+   margin-top: 250px; 
+   float: right;
+   color: black;
+   margin-right:-140px ;
+}
+.image5{
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.btn5{
+    float: right;
+    margin-top: 300px;
+    margin-right: -130px;
+    background-color: green;
+}
+.container-A{
+    height: 450px;
+    width: 100%;
+    background-color: white; 
+}
+.mini-container{
+    padding-top: 40px;
+    margin-top: 50px;
+    display: inline-block;
+    height: 350px;
+    width: 300px;
+    flex-wrap: wrap;
+   /* margin-left: 800px; */
+    background-color: whitesmoke;
+    border-radius: 20px;
+    margin-left: 100px;
+}
+.image-1{
+    margin-left: 90px;
+    margin-top: -2px;
+}
+.para-1{
+    margin-left: 50px;
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+    margin-top: 20px;
+}
+.para-2{
+    color: black;
+    margin-top: -1px;
+    margin-left: 20px;
+    text-align: center;
+}
+.h1{
+    color: black;
+    font-size: 45px;
+    font-weight: bold;
+    margin-left: 300px;
+}
+.container-0{
+    background-color: whitesmoke;
+   display: flex;
+    height: 400px;
+    width: 100%;
+}
+h1{
+    color:rgb(93, 190, 93);
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 40px;
+}
+li{
+    margin-left: 20px;
+}
+.card-1{
+    background-color: rgb(21, 62, 78);
+    margin-left: 50px;
+    height: 300px;
+    width: 250px;
+   
+    color:white;
+    margin-top: 40px;
+    border-radius: 20px;
+}
+
+.card-2{
+    background-color: rgb(189, 228, 184);
+    border-radius: 20px;
+    margin-top: 40px;
+    margin-left: 40px;
+    height: 300px;
+    width: 250px;  
+    color:white;
+}
+
+.card-3{
+    background-color: rgb(57, 23, 88);
+    border-radius: 20px;
+    margin-top: 40px;
+    margin-left: 60px;
+    height: 300px;
+    width: 250px;
+      
+    color:white;
+}
+.card-4{
+background-color: rgb(159, 196, 231);
+    border-radius: 20px;
+    margin-top: 40px;
+    margin-left: 80px;
+    float: right;
+    height: 300px;
+    width: 250px;
+    color:black;
+}
+.text{
+    background-color: rgb(27, 70, 27);
+    height: 450px;
+    border-radius: 20px;
+    width: 100%;
+}
+.text-head{
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+    padding-top: 20px;
+}
+.para-3{
+    color: rgb(253, 252, 252);
+    font-size: 20px;
+    margin-top: 20px;
+  float: left;
+  margin-left: 50px;
+}
+.para-4{
+    margin-top: 10px;
+    float: left;
+    margin-left: 50px;
+}
+.footer{
+    height: 500px;
+    width: 100%; 
+}
+.head-1{
+    display: inline-block;
+}
+.div{
+    display: inline-block;
+}
+    </style>
+</head>
+<body>
+    <nav >
+        <label class="logo"><img src="./image/careem-logo-vector.png" width="120px" height="90px"></label>
+        <ul>
+            
+            <li><a href="partner.html">Partners</a></li>
+            <li><a href="careemplus.html">Careem Plus</a></li>
+            <li><a href="service.html">Services</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+            <button type="button" class="btn btn-secondary btn-lg">Download the app</button>
+        </ul>
+        
+       </nav>
+
+       <div>
+        <img class="img1" src="https://upload-cdn.careem.com/web_2_8ead15d7da.png" alt="web_2_8ead15d7da" width="1350px" >
+       </div>
+<div class="container-h">
+<h1 class="heading">Most members save AED 200+ monthly <br> with careem plus</h1>
+<p class="p">At only AED 19/month, enjoy unlimited savings on rides, food and groceries, dining out, plus more
+</p>
+</div>
+<div class="container-a">
+    <img class="image" src="https://upload-cdn.careem.com/cfb1_3de6ed9ba7_jpg_9_ba345a0737.png" alt="cfb1_3de6ed9ba7_jpg_9_ba345a0737">
+<h2>Instant 10% back on 10 <br> rides</h2>
+<p>On Hala Taxi & rides, credited to your Careem pay Wallet</p>
+<button class="btn2">Subscribe now</button>
+</div>
+<div class="container-f">
+    <h2 class="heading1">Free delivery on food</h2>
+    <p class="p1">From McDonald's, Starbuck & 7,000+ resturants</p>
+    <button class="btn3">Subscribe now</button>
+    <img class="image3" src="./image/cfb1_3de6ed9ba7_jpg_10_84149b6ece.png">
+</div>
+
+<div class="container-s">
+    <img class="image4" src="./image/cfb1_3de6ed9ba7_jpg_13_a235855523.png" alt="cfb1_3de6ed9ba7_jpg_9_ba345a0737">
+<h2 class="heading2">Free delivery on Quik  <br>Groceries</h2>
+<p class="p2">On limited order</p>
+<button class="btn4">Subscribe now</button>
+</div>
+<div class="container--a">
+    <h2 class="heading3">Up to 30% off on<br> DineOut</h2>
+    <p class="p3">On 200+ resturants</p>
+    <button class="btn5">Subscribe now</button>
+    <img class="image5" src="./image/cfb1_3de6ed9ba7_jpg_12_7d23f3dfca.png">
+</div>
+
+
+<div class="container-A" >
+    <div class="mini-container">
+<img  class="image-1" src="./image/Clock_1_dd8d59ffbf.png" height="110px" width="120px">
+<p class="para-1">Unlimited free bike rides</p>
+<p class="para-2">As many 45-min rides as you like</p>
+    </div>
+ <div class="mini-container">
+        <img class="image-1" src="./image/Clock_21_f0176b7ba2.png" height="110px" width="120px">
+        <p class="para-1">10% off on laundry</p>
+        <p class="para-2">On unlimitef odders</p>
+            </div>
+ <div class="mini-container">
+                <img class="image-1" src="./image/Icon_8_9b59c8e303.png" height="110px" width="120px">
+                <p class="para-1">20% off on home cleaning</p>
+                <p class="para-2">On unlimited bookings</p>
+                    </div>
+</div>
+
+<h1 class="h1">Explore more with Careem</h1>
+<div class="container-0">
+    <div class="card-1" >
+        <h1>Go <br>anywhere</h1>
+       <li><img src="./image/download (1).png" height="20px" width="20px">Rides</li>
+       <li><img src="./image/download.png" height="20px" width="20px">Taxi</li>  
+       <li><img src="./image/download.png" height="20px" width="20px">Bike</li>
+       <li><img src="./image/download.png" height="20px" width="20px">CarRental</li>
+       <li><img src="./image/download.png" height="20px" width="20px">SchoolRides</li>
+
+    </div>
+
+    <div class="card-2" >
+        <h1>Eat <br>anytime</h1>
+       <li><img src="./image/download.png" height="20px" width="20px">Food</li>
+       <li><img src="./image/download.png" height="20px" width="20px">DineOut</li>  
+       
+
+    </div>
+
+    <div class="card-3">
+        <h1>Get <br>anything</h1>
+       <li><img src="./image/download.png" height="20px" width="20px">Quik</li>
+       <li><img src="./image/download.png" height="20px" width="20px">Supermarkets</li>  
+       <li><img src="./image/download.png" height="20px" width="20px">Delivery</li>
+       <li><img src="./image/download.png" height="20px" width="20px">HomeCleaning</li>
+       <li><img src="./image/download.png" height="20px" width="20px">Salon&Spa</li>
+       <li><img src="./image/download.png" height="20px" width="20px">Tickets</li>
+       <li><img src="./image/download.png" height="20px" width="20px">Laundry</li>  
+       <li><img src="./image/download.png" height="20px" width="20px">Flowers</li>
+       <li><img src="./image/download.png" height="20px" width="20px">Pharmacy</li>
+    </div>
+
+    <div class="card-4">
+        <h1>Pay<br>anyone</h1>
+       <li><img src="./image/download.png" height="20px" width="20px">Pay</li>
+       <li><img src="./image/download.png" height="20px" width="20px">Donations</li>  
+  
+
+    </div>
+
+</div>
+
+ </div>
+</div>
+   </div>
+
+<div class="text">
+    <h1 class="text-head">Top Questions</h1>
+    <p class="para-3">What is Careem plus?</p>
+    <p class="para-4">Careem plus is a monthly subscription program that provides additional value across rides, food
+        groceries and bikes alon with quick support.
+    </p>
+    <p class="para-3">Can I use my Careem plus benifits with oher promos and discounts?</p>
+    <p class="para-4">Yes, you can use careem plus benifit with other discounts and promo codes within food and groceries.</p>
+    <p class="para-3">What happens when I cancel my Careem plus subscription?</p>
+    <p class="para-4">When you cancel your subscription you will still have access to all your subscription will not be auto
+         renewed at the end of <br> your subscription.
+    </p>
+</div>
+ <!-- <div class="footer"> 
+<div>
+   <img src="./image/careem-logo-vector.png" height="100px"  width="100px"> 
+   <div class="div">
+    <h3 class="head-1">Service</h3>
+   <a  href="#">Go</a>
+   <a href="#">Eat</a>
+   <a href="#">Get</a>
+   <a href="#">Pay</a>
+   <a href="#">Careem plus</a>
+   </div>
+   <div class="div">
+    <h3 class="head-1">Partners</h3>
+   <a  href="#">Corporate packages</a>
+   <a href="#">resturant delivery</a>
+   <a href="#">B2B  delivery</a>
+   <a href="#">Pay merchant solutions</a>
+
+   </div>
+   <div class="div">
+    <h3 class="head-1">Join our team</h3>
+   <a  href="#">About us</a>
+   <a href="#">Engineering at Careem</a>
+   <a href="#">Careers</a>
+   <a href="#">Explore open roles</a>
+   <a href="#">Why careem</a>
+   </div>
+   <div class="div">
+    <h3 class="head-1">About us</h3>
+   <a  href="#">Our social impact</a>
+   <a href="#">Information security</a>
+   <a href="#">Blog</a> -->
+
+
+
+
+
+
+
+
+
+
+       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"></script>
+</body>
+</html>
